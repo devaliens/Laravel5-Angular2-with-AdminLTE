@@ -32,6 +32,15 @@ Note: can be some problems with `gulp watch` when command is calling from `Homes
 ```
 php artisan serve
 ```
+## Go!
+
+```
+http://localhost:8000
+http://localhost:8000/#/  --> login page
+http://localhost:8000/#/register  --> register page
+http://localhost:8000/#/dashboard/home  --> home page
+http://localhost:8000/#/dashboard/blankpage  --> login page
+```
 
 ## Info
 
