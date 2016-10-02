@@ -1,0 +1,30 @@
+<ul class="sidebar-menu">
+    <!-- <li class="header">HEADER</li> -->
+    <!-- Optionally, you can add icons to the links -->
+    <li>
+        <a routerLink="/dashboard/home" [routerLinkActive]="['router-link-active']">
+            <i class="fa fa-link"></i> 
+            <span>Home</span>
+        </a>
+    </li>
+    <li class="treeview">
+        <a href="#">
+            <i class="fa fa-link"></i> 
+            <span>Example Page</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li>
+                <a routerLink="/dashboard/blankpage" [routerLinkActive]="['router-link-active']">Blank Page</a>
+            </li>
+            <li>
+                <a routerLink="" [routerLinkActive]="['router-link-active']">Login</a>
+            </li>
+            <li>
+                <a routerLink="/register" [routerLinkActive]="['router-link-active']">Register</a>
+            </li>
+        </ul>
+    </li>
+</ul>

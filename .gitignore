@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+/public/AdminLTE
+/public/build
+/public/css
+/public/fonts
+/public/js

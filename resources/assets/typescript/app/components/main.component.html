@@ -1,0 +1,48 @@
+<div class="hold-transition skin-blue">
+    <title> {{ page_title }} </title>
+    <div class="wrapper">
+        <!-- Main Header -->
+        <app-header></app-header>
+        <!-- Left side column. contains the logo and sidebar -->
+        <section class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar">
+                <!-- Sidebar User Panel -->
+                <sidebar-user></sidebar-user>
+                <!-- /.sidebar-user  -->
+
+                <!-- search form (Optional) -->
+                <sidebar-search></sidebar-search>
+                 <!-- /.sidebar-search form -->
+
+                <!-- Sidebar Menu -->
+                <sidebar-menu></sidebar-menu>
+                 <!-- /.sidebar-menu -->
+            </section>
+            <!-- /.sidebar -->
+        </section>
+
+        <!-- Content Wrapper. Contains page content -->
+        <div class="content-wrapper">
+            <!-- Content Header (Page header)  -->
+            <app-nav></app-nav>
+            <!-- Main content -->
+            <section class="content"style="height:100vh;">
+            <!-- Your Page Content Here -->
+                <router-outlet></router-outlet>
+            </section>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+
+        <!-- Control Sidebar -->
+        <aside class="control-sidebar control-sidebar-dark">
+            <app-toolsbar></app-toolsbar>
+        </aside>
+        <!-- /.control-sidebar -->
+        <!-- Add the sidebar's background. This div must be placed
+            immediately after the control sidebar -->
+        <div class="control-sidebar-bg"></div>
+    </div>
+</div>
+<!-- ./wrapper -->
